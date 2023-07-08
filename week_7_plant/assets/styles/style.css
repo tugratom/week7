@@ -17,6 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    width: 100%
 }
 
 .logo {
@@ -216,4 +217,16 @@
 
 .button2 {
     cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+    .footer {
+        display: none;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
